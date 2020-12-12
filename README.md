@@ -448,7 +448,7 @@ If you wish to customize this, you can specifiy a custom wait time like so:
 ### `x-ref`
 **Example:** `<div x-ref="foo"></div><button x-on:click="$refs.foo.innerText = 'bar'"></button>`
 
-**Structure:** `<div x-ref="[ref name]"></div><button x-on:click="$refs.[ref name].innerText = 'bar'"></button>`
+**Structure:** `<div x-ref="[ref name]"></div><button x-on:click="$refs[ref name].innerText = 'bar'"></button>`
 
 `x-ref` provides a convenient way to retrieve raw DOM elements out of your component. By setting an `x-ref` attribute on an element, you are making it available to all event handlers inside an object called `$refs`.
 
